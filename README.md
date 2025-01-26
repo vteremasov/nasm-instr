@@ -1,6 +1,6 @@
 # Simple interpreter for INTEL 8086 CPU family assembly
 
-This library is for education purpose only.
+This library is for education purposes only.
 
 ## Usage
 
@@ -16,7 +16,9 @@ Required `rust` compiler and dev env to be installed. Use [rustup](https://rustu
 
 Run
 
-`cargo run <path-to-binary>`
+`nasm <path-to-listing>` -> creates binary file
+
+`cargo run <path-to-binary>` -> decompiles binary back to listing
 
 ## Details of the CPU family
 
